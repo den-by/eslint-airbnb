@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "eslint": "eslint **/*.js",
+    "eslint": "eslint .",
     "eslint-write": "eslint --fix"
   },
   "devDependencies": {
@@ -15,6 +15,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-sonarjs": "^0.8.0-125"
+    "eslint-plugin-sonarjs": "^0.8.0-125",
+    "eslint-plugin-unicorn": "^33.0.1"
   }
 }
